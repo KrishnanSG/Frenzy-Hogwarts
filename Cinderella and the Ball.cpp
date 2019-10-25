@@ -1,3 +1,5 @@
+// Solution to Cinderella and the Ball problem.
+
 #include<iostream>
 #include<math.h>
 using namespace std;
