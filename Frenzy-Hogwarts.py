@@ -43,8 +43,11 @@ for ll in range(t):
             
         else:
             abc=list(dc.keys())
-            abc.sort()
-            print(abc[0])
+            min_string = abc[0]
+            for i in abc:
+                if min_string>i:
+                    min_string=i
+            print(min_string)
         
     
     
